@@ -1,4 +1,4 @@
-class BoardMember
+class BoardMember {
 constructor(name, homeState, training) {
   this.name = name
   this.homeState = homeState
@@ -6,4 +6,5 @@ constructor(name, homeState, training) {
 }
 veto() {
   return "No, I must disagree"
+}
 }
